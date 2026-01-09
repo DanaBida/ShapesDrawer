@@ -6,7 +6,7 @@ import cors from 'cors';
 import * as Sentry from '@sentry/node';
 
 const app = express();
-const { port } = confi
+const { port } = config;
 
 // Initialize Sentry
 Sentry.init({
