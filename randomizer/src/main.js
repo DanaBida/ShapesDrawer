@@ -2,7 +2,7 @@ import { appController } from './controllers/app.controller.js';
 import { errorMiddleware } from './middlewares/error.middleware.js';
 import { config } from './config.js';
 import express from 'express';
-import cors from 'cors
+import cors from 'cors';
 import * as Sentry from '@sentry/node';
 
 const app = express();
